@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mini test 4</title>
+</head>
+<body>
+<input type="number" id="a">Nhập độ dài cạnh
+<button onclick="resu()">Result</button>
+<p id="ketqua1"></p>
+<p id="ketqua2"></p>
+<script>
+    function resu(){
+        let a = document.getElementById("a").value;
+        let chuvi = a * 4;
+        let s = a * a;
+        document.getElementById("ketqua1").innerHTML = chuvi;
+        document.getElementById("ketqua2").innerHTML = s;
+    }
+</script>
+</body>
+</html>
